@@ -21,6 +21,7 @@ cw1-pt/ or cw1-tf/        # root folder specifies chosen framework
 │   ├── task2a.py         # extension: least-squares solver + search
 │   ├── saved_models/     # pre-trained checkpoints (< 100 MB total)
 │   └── *.png             # result, mixup & new_result montages
+├── Assessed-Component-1 COMP0197 2024-25.pdf   # document containing the questions of the coursework
 └── README.md
 ```
 
