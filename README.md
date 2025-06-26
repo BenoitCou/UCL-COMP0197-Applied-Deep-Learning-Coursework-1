@@ -58,9 +58,9 @@ By default each script:
 - **task1a.py** treats M as a learnable integer via straight-through estimation and SGD.
 
 **Task 2 – Extreme Learning Machines**
-- Defines MyExtremeLearningMachine – one fixed convolutional layer (Gaussian-initialised) feeding a trainable FC layer.
+- Defines `MyExtremeLearningMachine` – one fixed convolutional layer (Gaussian-initialised) feeding a trainable FC layer.
 - Adds two regularisers:
--   MyMixUp – on-the-fly mixup augmentation (seeded).
--   MyEnsembleELM – averages logits from several independently-initialised ELMs.
-- fit_elm_sgd trains with mini-batch SGD; metrics (Top-1 Accuracy & Macro-F1) are logged per epoch.
-- **task2a.py** compares least-squares training (fit_elm_ls) vs. SGD, then performs random hyper-parameter search to exceed the previous best model.
+-   `MyMixUp` – on-the-fly mixup augmentation (seeded).
+-   `MyEnsembleELM` – averages logits from several independently-initialised ELMs.
+- `fit_elm_sgd` trains with mini-batch SGD; metrics (Top-1 Accuracy & Macro-F1) are logged per epoch.
+- **task2a.py** compares least-squares training (`fit_elm_ls`) vs. SGD, then performs random hyper-parameter search to exceed the previous best model.
