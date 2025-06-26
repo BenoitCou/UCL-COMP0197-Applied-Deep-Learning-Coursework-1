@@ -64,3 +64,13 @@ By default each script:
   -   `MyEnsembleELM` – averages logits from several independently-initialised ELMs.
 - `fit_elm_sgd` trains with mini-batch SGD; metrics (Top-1 Accuracy & Macro-F1) are logged per epoch.
 - **task2a.py** compares least-squares training (`fit_elm_ls`) vs. SGD, then performs random hyper-parameter search to exceed the previous best model.
+
+## Coursework Mark & Feedback
+
+| Task                                                                     |     Max | Awarded |
+| ------------------------------------------------------------------------ | ------: | ------: |
+| Task 1 – SGD for Logistic Regression                                     |      50 |      41 |
+| Task 2 – Extreme Learning Machines <br>(includes Task 2a ablation study) |      50 |      44 |
+| **Overall – Coding component**                                           | **100** |  **85** |
+
+
