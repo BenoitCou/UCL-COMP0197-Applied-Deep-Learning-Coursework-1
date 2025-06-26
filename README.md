@@ -46,7 +46,7 @@ By default each script:
 - seeds NumPy and the backend framework for reproducibility,
 - prints loss values at least ten times during optimisation,
 - writes required montages to PNG in its working directory,
-- loads pre-trained weights from saved_models/ (Task 2) to avoid long retraining.
+- loads pre-trained weights from `saved_models/` (Task 2) to avoid long retraining.
 
 ## What the Code Does
 
