@@ -25,12 +25,24 @@ cw1-pt/ or cw1-tf/        # root folder specifies chosen framework
 └── README.md
 ```
 
-## Environment Setup
+## Code Setup
 
 ```bash
+# 1. Clone the repo
+git clone https://github.com/BenoitCou/UCL-COMP0197-Applied-Deep-Learning-Coursework-1
+cd UCL-COMP0197-Applied-Deep-Learning-Coursework-1/cw1-pt
+
+# 2. Activate the environment
 conda create -n comp0197-cw1-pt python=3.12 pip
 conda activate comp0197-cw1-pt
 pip install torch==2.5.0 torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# 3. Run the code
+python task1\task.py
+python task1\task1a.py
+python task2\task.py
+python task2\task2a.py
+
 ```
 ## Running the Tasks
 
